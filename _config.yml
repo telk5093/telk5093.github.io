@@ -2,10 +2,12 @@
 title:          TELKblog
 description:    "Test blog"
 baseurl:        "/"
-url:            "https://telk5093.github.io"
+url:            "https://weblog.telk.kr"
 
 # Google Analytics
 google_analytics: UA—XXXXXXXX-X
+
+timezone: Asia/Seoul
 
 # Author
 author:
@@ -17,6 +19,15 @@ author:
 markdown:       kramdown
 include:
   - _pages
+
+# Defaults
+defualts:
+  -
+    scopes:
+      path: ""
+    values:
+      layout: post
+      author: TELK
 
 # Assets
 sass:
