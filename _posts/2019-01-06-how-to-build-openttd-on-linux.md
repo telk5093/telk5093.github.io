@@ -19,8 +19,8 @@ Ubuntu 20.04(16.04, 18.04 동일)에서 OpenTTD를 빌드하는 방법이다.
  - libfreetype: 폰트를 불러오고 렌더링하기 위한 용도
  - libfontconfig: 폰트를 찾고 실제 폰트의 이름을 가져오는 용도
  - libicu: 오른쪽에서 왼쪽으로 쓰는 글(e.g. 아랍어, 페르시아어 등)이나 문자열의 자연 정렬(리눅스만 해당) 용도
- - libsdl2: 하드웨어 접근(비디오, 사운드, 마우스) (Windows나 MacOS에서는 불필요)
-다른 건 몰라도 liblzma는 있어야 최근 사용되는 대부분의 세이브 파일을 읽을 수 있다.
+ - libsdl2: 하드웨어 접근(비디오, 사운드, 마우스) (Windows나 MacOS에서는 불필요)   
+ 다른 건 몰라도 liblzma는 있어야 최근 사용되는 대부분의 세이브 파일을 읽을 수 있다.
 ```
 sudo apt install cmake pkg-config g++ zlib1g-dev liblzo2-dev liblzma-dev libpng-dev libfreetype6-dev libfontconfig-dev libicu-dev libsdl2-dev fcitx-libs-dev
 ```
