@@ -4,10 +4,10 @@ description:    "TELK의 블로그"
 host:           localhost
 port:           4000
 baseurl:        ""
-url:            "https://weblog.telk.kr"
+url:            "https://blog.telk.kr"
 
 # Google Analytics
-google_analytics: UA—XXXXXXXX-X
+google_analytics: G-VN74YT60RF
 
 timezone: Asia/Seoul
 
