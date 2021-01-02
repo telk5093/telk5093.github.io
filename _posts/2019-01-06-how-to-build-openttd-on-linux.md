@@ -1,10 +1,11 @@
 ---
 layout: post
 title: "Ubuntu에서 OpenTTD를 빌드하는 방법"
-author: "TELK"
 tags: [openttd, linux, build, ubuntu]
 permalink: /115
 comments: true
+published: true
+use_math: false
 ---
 
 Ubuntu 20.04(16.04, 18.04 동일)에서 OpenTTD를 빌드하는 방법이다.
@@ -29,7 +30,8 @@ sudo apt install cmake pkg-config g++ zlib1g-dev liblzo2-dev liblzma-dev libpng-
 ```
 git clone https://github.com/OpenTTD/OpenTTD.git
 ```
- * JGR's Patch Pack을 가져오려면 ``git clone https://github.com/JGRenisson/OpenTTD-patches.git ./OpenTTD`` 를 위 명령어 대신 실행한다.   
+ - JGR's Patch Pack을 가져오려면 ``git clone https://github.com/JGRenisson/OpenTTD-patches.git ./OpenTTD`` 를 위 명령어 대신 실행한다.<br /><br />
+
 
 3. OpenTTD 폴더로 진입하고 build 폴더를 만든 다음, ``cmake ..``와 ``make`` 명령어를 실행한다
 ```
