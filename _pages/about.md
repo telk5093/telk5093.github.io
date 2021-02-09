@@ -11,7 +11,7 @@ permalink: /about/
 -----
 
 Hello.
-I'm TELK, contributing [OpenRCT2](https://github.com/OpenRCT2/OpenRCT2)와 [OpenTTD](https://github.com/OpenTTD/OpenTTD), [OpenLoco](https://github.com/OpenLoco/OpenLoco), [Parkitect](https://themeparkitect.com)'s Korean translation and operating OpenRCT2/OpenTTD dedicated multiplayer servers.
+I'm TELK, contributing [OpenRCT2](https://github.com/OpenRCT2/OpenRCT2), [OpenTTD](https://github.com/OpenTTD/OpenTTD), [OpenLoco](https://github.com/OpenLoco/OpenLoco) and [Parkitect](https://themeparkitect.com)'s Korean translation and operating OpenRCT2/OpenTTD dedicated multiplayer servers.
 
 
 ## Contact
