@@ -23,7 +23,7 @@ Ubuntu 20.04(16.04, 18.04 동일)에서 OpenTTD를 빌드하는 방법이다.
  - libsdl2: 하드웨어 접근(비디오, 사운드, 마우스) (Windows나 MacOS에서는 불필요)   
  다른 건 몰라도 liblzma는 있어야 최근 사용되는 대부분의 세이브 파일을 읽을 수 있다.
 ```
-sudo apt install cmake pkg-config g++ zlib1g-dev liblzo2-dev liblzma-dev libpng-dev libfreetype6-dev libfontconfig-dev libicu-dev libsdl2-dev fcitx-libs-dev
+sudo apt install -y cmake pkg-config g++ zlib1g-dev liblzo2-dev liblzma-dev libpng-dev libfreetype6-dev libfontconfig-dev libicu-dev libsdl2-dev fcitx-libs-dev
 ```
 
 2. OpenTTD Github에서 저장소를 클론해온다
