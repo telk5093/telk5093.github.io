@@ -7,7 +7,8 @@ baseurl:        ""
 url:            "https://blog.telk.kr"
 
 # Google Analytics
-google_analytics: G-VN74YT60RF
+google_analytics:    UA-199820069-1
+google_analytics_v4: G-ESB087YT8T
 
 timezone: Asia/Seoul
 
